@@ -1,15 +1,20 @@
 <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
   <div class="intro">
-    <div class="intro-sub">Hello World!, I'm</div>
-    <h1>Daniel <span>Correa</span></h1>
-    <p><strong>Software Engineer passionate about writing code and implementing latest awesome technologies.<br>
-    Always working with best practices, clean, fast and maintainable code.</strong>
+    <div class="intro-sub">{{intro}}</div>
+    <h1>{{name}} <span>{{lastName}}</span></h1>
+    <p>
+      <strong>
+        <span *ngFor="let element of description">
+          {{element}} <br>
+        </span>
+      </strong>
+    </p>
 
     <div class="social-icons">
       <ul class="list-inline">
-        <li><a href="https://www.linkedin.com/in/danielcb29" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://github.com/danielcb29" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li><a href="mailto:danielc.web@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        <li><a [href]="personalLinks.linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a [href]="personalLinks.github" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a [href]="'mailto:' + personalLinks.email"><i class="fa fa-envelope"></i></a></li>
       </ul>
     </div> <!-- /.social-icons -->
   </div>

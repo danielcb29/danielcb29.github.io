@@ -8,6 +8,20 @@ import $ from 'jquery/dist/jquery';
 })
 export class HomeComponent implements OnInit {
 
+  name = 'Daniel';
+  lastName = 'Correa';
+  intro = 'Hello World!, I\'m';
+  description = [
+    'Software Engineer passionate about writing code and implementing latest awesome technologies.',
+    'Always working with best practices, clean, fast and maintainable code.'
+  ]
+
+  personalLinks = {
+    linkedin: 'https://www.linkedin.com/in/danielcb29',
+    github: 'https://github.com/danielcb29',
+    email: 'danielc.web@gmail.com'
+  }
+
   constructor() { }
 
   ngOnInit() {
