@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import $ from 'jquery/dist/jquery';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,11 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $('.tt-fullHeight').height($(window).height());
+
+      $(window).resize(function(){
+          $('.tt-fullHeight').height($(window).height());
+      });
   }
 
 }
