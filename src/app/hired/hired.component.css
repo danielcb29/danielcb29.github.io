@@ -21,3 +21,19 @@
 .hire-section .btn {
     padding: 9px 54px;
 }
+
+/*btn-default*/
+.btn-default {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active{
+    color: #68c3a3;
+    background-color: #fff;
+    border-color: #fff;
+}
