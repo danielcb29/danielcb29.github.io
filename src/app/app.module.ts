@@ -10,6 +10,11 @@ import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { ResumeComponent } from './resume/resume.component';
+import { SkillsComponent } from './skills/skills.component';
+import { WorksComponent } from './works/works.component';
+import { ContactComponent } from './contact/contact.component';
+import { HiredComponent } from './hired/hired.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     NavigationComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    ResumeComponent,
+    SkillsComponent,
+    WorksComponent,
+    ContactComponent,
+    HiredComponent
   ],
   imports: [
     NgbModule.forRoot(),

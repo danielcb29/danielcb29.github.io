@@ -1,0 +1,23 @@
+/* === Hire Section === */
+.hire-section {
+    background: url(../../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+.hire-section-bg {
+    padding: 110px 0;
+    background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
+    background: linear-gradient(to top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Standard*/
+}
+
+.hire-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.hire-section .btn {
+    padding: 9px 54px;
+}
