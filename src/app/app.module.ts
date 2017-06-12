@@ -1,10 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Keys
+import { googleMapsKey } from './app.keys';
+
+// Dependencies
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AgmCoreModule } from '@agm/core';
 import { RouterModule } from '@angular/router';
 
+// Components
 import { ROUTES } from './app.routes'
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -35,7 +40,7 @@ import { HiredComponent } from './hired/hired.component';
     BrowserModule,
     RouterModule.forRoot(ROUTES, {useHash: false}),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBgORRJRTtWbquUpYBcfO1GfuMmcZrmEHY'
+      apiKey: googleMapsKey
     })
   ],
   providers: [],

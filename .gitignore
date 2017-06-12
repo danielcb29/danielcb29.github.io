@@ -3,6 +3,7 @@
 
 #Daniel Page Ignore
 /template
+/src/app/app.keys.ts
 
 # compiled output
 /dist
