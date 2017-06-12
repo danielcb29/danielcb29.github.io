@@ -299,21 +299,6 @@ ul.list-check li::before {
     margin: 0 auto;
 }
 
-/* === Footer Wrapper === */
-.footer-wrapper {
-    background: #1a1e23;
-    padding: 36px 0;
-    color: #fff;
-
-}
-.copyright p {
-    margin: 0;
-}
-
-
-
-
-
 
 /* ---------------------------------------------- /*
  * Scroll to top
