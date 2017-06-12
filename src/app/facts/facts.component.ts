@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FactsComponent implements OnInit {
 
-  constructor() { }
+    years = '2+';
+    projectsDone = '5';
+    githubProjects = '41';
+    communityContributions = '2';
 
-  ngOnInit() {
-  }
+    constructor() { }
+
+    ngOnInit() {
+    }
 
 }
