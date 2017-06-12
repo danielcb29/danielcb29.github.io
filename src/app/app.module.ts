@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AgmCoreModule } from '@agm/core';
 import { RouterModule } from '@angular/router';
 
 import { ROUTES } from './app.routes'
@@ -32,7 +33,10 @@ import { HiredComponent } from './hired/hired.component';
   imports: [
     NgbModule.forRoot(),
     BrowserModule,
-    RouterModule.forRoot(ROUTES, {useHash: false})
+    RouterModule.forRoot(ROUTES, {useHash: false}),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBgORRJRTtWbquUpYBcfO1GfuMmcZrmEHY'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

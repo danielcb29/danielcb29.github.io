@@ -93,6 +93,7 @@
     border: 1px solid #eee;
     border-bottom: 3px double #eee;
 }
-.map-canvas {
+
+agm-map {
     height: 350px;
 }
