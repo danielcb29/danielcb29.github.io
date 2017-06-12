@@ -21,6 +21,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { WorksComponent } from './works/works.component';
 import { ContactComponent } from './contact/contact.component';
 import { HiredComponent } from './hired/hired.component';
+import { FactsComponent } from './facts/facts.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { HiredComponent } from './hired/hired.component';
     SkillsComponent,
     WorksComponent,
     ContactComponent,
-    HiredComponent
+    HiredComponent,
+    FactsComponent
   ],
   imports: [
     NgbModule.forRoot(),
