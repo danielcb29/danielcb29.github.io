@@ -7,6 +7,7 @@ import { googleMapsKey } from './app.keys';
 // Dependencies
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AgmCoreModule } from '@agm/core';
+import { EasyPieChartModule } from 'ng2modules-easypiechart';
 import { RouterModule } from '@angular/router';
 
 // Components
@@ -43,7 +44,8 @@ import { FactsComponent } from './facts/facts.component';
     RouterModule.forRoot(ROUTES, {useHash: false}),
     AgmCoreModule.forRoot({
       apiKey: googleMapsKey
-    })
+    }),
+    EasyPieChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
