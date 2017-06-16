@@ -17,7 +17,7 @@
 .skill-title h3{
     font-size: 18px;
     font-weight: 400;
-    margin-top: -6px;
+    margin-top: 1px;
     text-transform: capitalize;
 }
 
@@ -29,7 +29,7 @@
     position: relative;
 }
 .progress {
-    height: 10px;
+    height: 20px;
     margin-bottom: 40px;
     background-color: #3a4149;
     border-radius: 3px;
@@ -38,12 +38,19 @@
 }
 
 .progress-bar {
-    background-color: #68c3a3;
+    background-color: #52b3d9;
 }
 .progress-bar span{
     position: absolute;
     top: -20px;
     right: 15px;
+}
+
+.progress-bar p {
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    width:400px;
 }
 
 .progress .progress-bar.six-sec-ease-in-out {
