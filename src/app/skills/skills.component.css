@@ -88,7 +88,11 @@
     height: 140px;
     margin: 40px auto;
     text-align: center;
+    border: 8px solid #52b3d9;
+    border-radius: 50%;
+    background-color: #3a4149;
 }
+
 .chart canvas {
     position:absolute;
     top:0;
@@ -97,7 +101,7 @@
 .percent {
     display: inline-block;
     margin: auto;
-    line-height: 140px;
+    line-height: 120px;
     z-index: 2;
     font-size: 25px;
     font-weight: 500;
