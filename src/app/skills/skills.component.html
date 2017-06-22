@@ -103,7 +103,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="chart">
                             <span class="percent">80</span>
-                            <round-progress [current]="80" [max]="100" [color]="'52b3d9'" [background]="'3a4149'" [responsive]="true" [radius]="140">
+                            <round-progress [current]="circularData.leadership" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
                                 <span>Leadership</span>
@@ -114,7 +114,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="chart" data-percent="23" data-color="2ecc71">
                             <span class="percent">90</span>
-                            <round-progress [current]="90" [max]="100" [color]="'52b3d9'" [background]="'3a4149'" [responsive]="true" [radius]="140">
+                            <round-progress [current]="circularData.creativity" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
                                 <span>Creativity</span>
@@ -124,7 +124,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="chart" data-percent="68" data-color="3498db">
                             <span class="percent">100</span>
-                            <round-progress [current]="100" [max]="100" [color]="'52b3d9'" [background]="'3a4149'" [responsive]="true" [radius]="140">
+                            <round-progress [current]="circularData.confidence" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
                                 <span>Confidence</span>
@@ -134,7 +134,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="chart" data-percent="68" data-color="3498db">
                             <span class="percent">80</span>
-                            <round-progress [current]="80" [max]="100" [color]="'52b3d9'" [background]="'3a4149'" [responsive]="true" [radius]="140">
+                            <round-progress [current]="circularData.communication" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
                                 <span>Communication</span>
@@ -151,7 +151,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-6">
                         <div class="chart" data-percent="68" data-color="3498db">
                             <span class="percent">90</span>
-                            <round-progress [current]="90" [max]="100" [color]="'52b3d9'" [background]="'3a4149'" [responsive]="true" [radius]="140">
+                            <round-progress [current]="circularData.english" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
                                 <span>English <br/><small>(Fluent)</small></span>
@@ -161,7 +161,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-6">
                         <div class="chart" data-percent="68" data-color="3498db">
                             <span class="percent">100</span>
-                            <round-progress [current]="100" [max]="100" [color]="'52b3d9'" [background]="'3a4149'" [responsive]="true" [radius]="140">
+                            <round-progress [current]="circularData.spanish" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
                                 <span>Spanish <br/><small>(Native)</small></span>
