@@ -113,3 +113,6 @@
     background: #222;
 }
 
+.navbar-brand {
+  margin: 5px;
+}

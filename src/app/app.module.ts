@@ -7,7 +7,7 @@ import { googleMapsKey } from './app.keys';
 // Dependencies
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AgmCoreModule } from '@agm/core';
-// import { EasyPieChartModule } from 'ng2modules-easypiechart';
+import { RoundProgressModule } from 'angular-svg-round-progressbar';
 import { RouterModule } from '@angular/router';
 
 // Components
@@ -45,7 +45,7 @@ import { FactsComponent } from './facts/facts.component';
     AgmCoreModule.forRoot({
       apiKey: googleMapsKey
     }),
-    // EasyPieChartModule
+    RoundProgressModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -81,19 +81,16 @@
 
 
 /* === Chart CSS  === */
-.chart {
+.chart, round-progress {
     position: relative;
     display: inline-block;
     width: 140px;
     height: 140px;
-    margin: 40px auto;
+    margin: 10px auto;
     text-align: center;
-    border: 8px solid #52b3d9;
-    border-radius: 50%;
-    background-color: #3a4149;
 }
 
-.chart canvas {
+.chart canvas, round-progress {
     position:absolute;
     top:0;
     left:0;
@@ -101,7 +98,8 @@
 .percent {
     display: inline-block;
     margin: auto;
-    line-height: 120px;
+    margin-top: 60px;
+    margin-left: 10px;
     z-index: 2;
     font-size: 25px;
     font-weight: 500;
@@ -117,7 +115,7 @@
     font-weight: 400;
     text-transform: capitalize;
     display: block;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 /*.percent:after {content: '%';margin-left: 0.1em;font-size: .8em;}*/
