@@ -4,19 +4,19 @@ import $ from 'jquery/dist/jquery';
 import * as WOW from 'wow.js/dist/wow.js';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
 
-  ngOnInit() {
+    ngOnInit() {
 
-      // Template configuration
-      $('#pre-status').fadeOut();
-      $('#tt-preloader').delay(350).fadeOut('slow');
+        // Template configuration
+        $('#pre-status').fadeOut();
+        $('#tt-preloader').delay(350).fadeOut('slow');
 
-      new WOW({ mobile:  false }).init();
-  }
+        new WOW({ mobile: false }).init();
+    }
 
 }

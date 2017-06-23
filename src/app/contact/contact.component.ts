@@ -19,7 +19,7 @@ export class ContactComponent implements OnInit {
     email = 'danielc.web@gmail.com';
 
     skype = '@danielcb29';
-    
+
     constructor() { }
 
     ngOnInit() {
