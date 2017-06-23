@@ -99,8 +99,15 @@
     position: relative;
     color: #68c3a3;
     font-size: 16px;
-    margin: 0 40px;
+    margin: 0 13px;
     z-index: 100;
+}
+.links p{
+    text-align: center;
+    color: #68c3a3;
+}
+.links-center a i {
+    margin: 0 40px;
 }
 .links a:hover i {
    color:  #fff;
@@ -108,7 +115,7 @@
 .links a i::after{
     position: absolute;
     content: "";
-    left: -7px;
+    left: -9px;
     top: -7px;
     width: 30px;
     height: 30px;

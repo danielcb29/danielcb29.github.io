@@ -12,7 +12,7 @@
                         <h3>FrontEnd</h3>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" [style.width]="devSkills.frontEnd"><span>95%</span>
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" [style.width]="devSkills.frontEnd"><span>{{devSkills.frontEnd}}</span>
                             <p> <strong>Angular, TS, CSS3, HTML5, Bootstrap, Ionic, Jquery </strong></p>
                         </div>
 
@@ -27,7 +27,7 @@
                     </div>
                     <div class="progress">
                         <div class="progress-bar six-sec-ease-in-out" role="progressbar" [style.width]="devSkills.backEnd" aria-valuenow="80" aria-valuemin="0"
-                            aria-valuemax="100"><span>80%</span>
+                            aria-valuemax="100"><span>{{devSkills.backEnd}}</span>
                             <p><strong>Python (Django), Ruby, Java, C++, Node.js</strong></p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="progress">
                         <div class="progress-bar six-sec-ease-in-out" role="progressbar" [style.width]="devSkills.sourceControl" aria-valuenow="75"
-                            aria-valuemin="0" aria-valuemax="100"><span>75%</span>
+                            aria-valuemin="0" aria-valuemax="100"><span>{{devSkills.sourceControl}}</span>
                             <p><strong>Git, Github, Bitbucket</strong></p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="progress">
                         <div class="progress-bar six-sec-ease-in-out" role="progressbar" [style.width]="devSkills.dataBase" aria-valuenow="95" aria-valuemin="0"
-                            aria-valuemax="100"><span>95%</span>
+                            aria-valuemax="100"><span>{{devSkills.dataBase}}</span>
                             <p><strong>PostgreSQL, MySQL, HBase, Elasticsearch, Mongo</strong></p>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="progress">
                         <div class="progress-bar six-sec-ease-in-out" role="progressbar" [style.width]="devSkills.devOps" aria-valuenow="80" aria-valuemin="0"
-                            aria-valuemax="100"><span>80%</span>
+                            aria-valuemax="100"><span>{{devSkills.devOps}}</span>
                             <p><strong>Docker, Heroku, AWS, Batch, Azure</strong></p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                     </div>
                     <div class="progress">
                         <div class="progress-bar six-sec-ease-in-out" role="progressbar" [style.width]="devSkills.iOT" aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100"><span>75%</span>
+                            aria-valuemax="100"><span>{{devSkills.iOT}}</span>
                             <p><strong>Arduino</strong></p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                 <div class="row more-skill text-center">
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="chart">
-                            <span class="percent">80</span>
+                            <span class="percent">{{circularData.leadership}}</span>
                             <round-progress [current]="circularData.leadership" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
@@ -113,7 +113,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="chart" data-percent="23" data-color="2ecc71">
-                            <span class="percent">90</span>
+                            <span class="percent">{{circularData.creativity}}</span>
                             <round-progress [current]="circularData.creativity" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
@@ -123,7 +123,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="chart" data-percent="68" data-color="3498db">
-                            <span class="percent">100</span>
+                            <span class="percent">{{circularData.confidence}}</span>
                             <round-progress [current]="circularData.confidence" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
@@ -133,7 +133,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="chart" data-percent="68" data-color="3498db">
-                            <span class="percent">80</span>
+                            <span class="percent">{{circularData.communication}}</span>
                             <round-progress [current]="circularData.communication" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
@@ -150,7 +150,7 @@
                 <div class="row more-skill text-center">
                     <div class="col-xs-12 col-sm-4 col-md-6">
                         <div class="chart" data-percent="68" data-color="3498db">
-                            <span class="percent">90</span>
+                            <span class="percent">{{circularData.english}}</span>
                             <round-progress [current]="circularData.english" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
@@ -160,7 +160,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-6">
                         <div class="chart" data-percent="68" data-color="3498db">
-                            <span class="percent">100</span>
+                            <span class="percent">{{circularData.spanish}}</span>
                             <round-progress [current]="circularData.spanish" [max]="circularConfig.max" [color]="circularConfig.color" [background]="circularConfig.background" [responsive]="circularConfig.responsive" [radius]="circularConfig.radius">
                             </round-progress>
                             <div class="chart-text">
