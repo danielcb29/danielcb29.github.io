@@ -9,6 +9,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "prod": "npm version patch | ng build --prod",
+    "feature": "npm version minor | ng build --prod  ",
+    "release": "npm version major | ng build --prod",
     "deploy": "ngh --message='Daniel Page deploy :smile:' --branch=master"
   },
   "private": true,
