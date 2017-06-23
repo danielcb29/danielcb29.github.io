@@ -1,0 +1,42 @@
+/* === Footer Wrapper === */
+.footer-wrapper {
+    background: #4f4f4f;
+    padding: 36px 0;
+    color: #efefef;
+
+}
+.copyright p {
+    margin: 0;
+}
+.font-accident-two-bold {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700 !important;
+}
+
+.btn-footer {
+    cursor: pointer;
+    text-decoration: none;
+    color: #efefef;
+    background: #7f7f7f;
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    margin: 2px 0 4px 0;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0 0;
+}
+
+.btn-footer:hover, .social:hover {
+    background: #52b3d9;
+}
+
+.social {
+    background: #8f8f8f;
+    color: #efefef;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+<section id="home" class="tt-fullHeight animated bounceInDown" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+  <div class="intro">
+    <div class="intro-sub">{{intro}}</div>
+    <h1>{{name}} <span>{{lastName}}</span></h1>
+    <p>
+      <strong>
+        <span *ngFor="let element of description">
+          {{element}} <br>
+        </span>
+      </strong>
+    </p>
+
+    <div class="social-icons">
+      <ul class="list-inline">
+        <li><a [href]="personalLinks.linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a [href]="personalLinks.github" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a [href]="'mailto:' + personalLinks.email"><i class="fa fa-envelope"></i></a></li>
+      </ul>
+    </div> <!-- /.social-icons -->
+  </div>
+  <div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+</section>

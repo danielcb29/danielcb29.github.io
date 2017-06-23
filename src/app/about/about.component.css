@@ -1,0 +1,124 @@
+/* BUTTON STYLE
+-----------------------------------------------------*/
+/*common-btn*/
+.btn{
+    border: 0;
+    border-bottom: 3px solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 28px;
+    padding: 9px 22px;
+}
+
+/*large-btn*/
+.btn-lg,
+.btn-group-lg>.btn {
+    padding: 14px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/*btn-primary*/
+.btn-primary{
+    background-color:#68c3a3;
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #4eb28f;
+    border-color: #4eb28f;
+}
+
+/*btn-info*/
+.btn-info{
+    background-color:#52b3d9;
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active,
+.open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #4aa0c2;
+    border-color: #4aa0c2;
+}
+
+/* === About Section === */
+.short-info {
+    margin-bottom: 40px;
+}
+
+.short-info h3 {
+    margin-bottom: 30px;
+}
+
+.short-info ul {
+    margin-top: 10px;
+    display:inline-block;
+}
+.short-info ul li {
+    width: 50%;
+    float: left;
+}
+
+
+/*download-button*/
+.download-button a {
+    margin-right: 20px;
+    color: #fff;
+}
+.download-button a i {
+    margin-right: 10px;
+}
+
+
+.biography{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border:1px solid #EEEEEE;
+    position: relative;
+}
+
+.biography::after{
+    content: "";
+    border-bottom: 1px solid #EEEEEE;
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.myphoto{
+    position: relative;
+    background: url(../../assets/images/photo-frame.png) bottom center no-repeat;
+    background-size: contain;
+}
+
+.myphoto img{
+    position: relative;
+    z-index: -1;
+}
+
+.biography ul{
+    padding:25px 20px 30px;
+}
+
+.biography ul li{
+    padding:5px 0;
+    font-size: 16px;
+    border-bottom:1px solid #EEEEEE;
+}
+
+.biography ul li:last-child{
+    border-bottom:0;
+}
