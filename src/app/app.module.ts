@@ -23,6 +23,7 @@ import { WorksComponent } from './works/works.component';
 import { ContactComponent } from './contact/contact.component';
 import { HiredComponent } from './hired/hired.component';
 import { FactsComponent } from './facts/facts.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FactsComponent } from './facts/facts.component';
     WorksComponent,
     ContactComponent,
     HiredComponent,
-    FactsComponent
+    FactsComponent,
+    NotFoundComponent
   ],
   imports: [
     NgbModule.forRoot(),

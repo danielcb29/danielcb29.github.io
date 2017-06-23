@@ -1,0 +1,42 @@
+.content{
+	margin: 20px 0 60px;
+}
+.error{
+	margin: 0 auto;
+    text-align: center;
+}
+.error-code{
+	bottom: 60%;
+    color: #2d353c;
+    font-size: 96px;
+    line-height: 100px
+}
+.error-content{
+	top: 40%;
+    bottom: 0;
+    padding-top: 15px;
+}
+
+/*common-btn*/
+.btn{
+    border: 0;
+    border-bottom: 3px solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 28px;
+    padding: 9px 22px;
+}
+
+/*large-btn*/
+.btn-lg,
+.btn-group-lg>.btn {
+    padding: 14px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/*btn-primary*/
+.btn-primary{
+    background-color:#68c3a3;
+    border-color: rgba(51, 51, 51, 0.15);
+}
