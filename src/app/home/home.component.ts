@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   lastName = 'Correa';
   intro = 'Hello World!, I\'m';
   description = [
-    'Software Engineer passionate about writing code and implementing latest awesome technologies.',
+    'Software Engineer passionate about writing code and implementing the latest awesome technologies.',
     'Always working with best practices, clean, fast and maintainable code.'
   ]
 
