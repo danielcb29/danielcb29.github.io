@@ -13,7 +13,10 @@ export class ResumeComponent implements OnInit {
       title: 'Web UI Engineer',
       company: 'Globant, Medellín, Colombia',
       description: [
-        'Angular 4 :)'
+        'Scalable Platforms Studio',
+        'Autodesk Account NodeJS Engineer',
+        'Technologies and skills: Nodejs, ES6, D3, DC, Crossfilter, MapReduce algorithmic design,'
+        + 'BDD, SVG, Jenkins and all the Quantum Stack technologies.'
       ]
     },
     {

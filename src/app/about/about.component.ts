@@ -12,7 +12,6 @@ export class AboutComponent implements OnInit {
     birth: '29 January 1994',
     city: 'Medellín, Colombia',
     nationality: 'Colombia',
-    phone: '+57 312 769 34 02',
     email: 'danielc.web@gmail.com'
   }
 

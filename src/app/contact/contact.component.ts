@@ -13,11 +13,7 @@ export class ContactComponent implements OnInit {
 
     city = 'Medellín'
     country = 'Colombia'
-
-    phone = '(+57) 312 769 34 02';
-
     email = 'danielc.web@gmail.com';
-
     skype = '@danielcb29';
 
     constructor() { }
